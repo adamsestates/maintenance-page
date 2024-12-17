@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance Requests</title>
+    <style>
+        /* Create a white header to hide the blue Adams Estates logo */
+        .header-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 200px; /* Increased height to 200px */
+            background-color: white;
+            z-index: 1000;
+        }
+        iframe {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header overlay to hide the logo -->
+    <div class="header-overlay"></div>
+    <!-- Iframe to the maintenance request page -->
+    <iframe src="https://webutils.acquaintcrm.co.uk/MaintenanceRequests.aspx?siteprefix=ADAM">
+    </iframe>
+</body>
+</html>
